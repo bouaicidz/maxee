@@ -270,7 +270,7 @@
   }
   function K6(KR) {
     if (!n) {
-      $getScript("https://Maxeetemplate.github.io/assets/splidejs@2.4.21.min.js", function () {
+      $getScript("https://raw.githack.com/bouaicidz/maxee/main/splide.js", function () {
         n = true;
         KR();
       });
